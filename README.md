@@ -27,3 +27,7 @@ Just part of me learning more modern Javascript and some Vue, but also functiona
 - Basic CSS grid
 - responsiveness using viewport units only
 - Note that if insert `<!DOCTYPE html>` at the front then the gaps between the grid elements disappears horizontally.... 
+
+## Demo
+
+Here is a working [demo](https://demos.hibbert.online/sudoku/puzzle.php)
