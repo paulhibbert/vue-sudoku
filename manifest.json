@@ -1,0 +1,21 @@
+{
+    "short_name": "Sudoku",
+    "name": "Vue Sudoku",
+    "icons": [
+      {
+        "src": "sudoku-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "sudoku-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "puzzle.php",
+    "background_color": "aliceblue",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "aliceblue"
+  }
