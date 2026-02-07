@@ -13,7 +13,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "puzzle.php",
+    "start_url": "index.php",
     "background_color": "aliceblue",
     "display": "standalone",
     "scope": "/",
