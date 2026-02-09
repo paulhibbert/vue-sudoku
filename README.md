@@ -30,8 +30,4 @@ Just part of me learning some Vue, but also functional as a real Sudoku puzzle w
 
 ## Demo
 
-No longer hosted online. Grab the sudoku.txt file from the linked repository and then just serve locally
-
-```bash
-php -S localhost:8000
-```
+[hosted on render](https://vue-sudoku.onrender.com)

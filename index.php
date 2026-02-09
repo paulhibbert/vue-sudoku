@@ -30,11 +30,10 @@
                 ],
                 clues: [
 <?php
-$fname = 'sudoku.txt';
+$fname = 'extractedSudoku.txt';
 $myfile = fopen($fname, "r") or die("Unable to open file!");
 if ($myfile) {
-    $buffer = fgets($myfile , 164);                         //first one is different length, missing opening [
-    $random_sudoku = mt_rand (1,999999);                    //there are a million sudokus
+    $random_sudoku = mt_rand (1,99999);                     //there are a 100,000 sudokus in the file, so get a random number between 1 and 99,999
 	fseek ( $myfile , $random_sudoku*164 , SEEK_CUR);       //set the pointer to the start of random sudoku
 	$buffer = fgets($myfile , 165);                         //get the sudoku clues [3; ; ;4; ;....]
 	$clues = explode(";",substr($buffer,1,162));            //get the blanks or numbers from inside the array like string
