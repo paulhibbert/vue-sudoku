@@ -30,4 +30,8 @@ Just part of me learning some Vue, but also functional as a real Sudoku puzzle w
 
 ## Demo
 
-[hosted on render](https://vue-sudoku.onrender.com)
+No longer hosted online. Just serve locally
+
+```bash
+php -S localhost:8000
+```
